@@ -16,5 +16,20 @@ namespace Reto
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        //BOTONES 
+        private void Bt_iniciar_Click(object sender, EventArgs e)
+        {
+            //BOTON INICIAR
+        }
+
+        private void Bt_detener_Click(object sender, EventArgs e)
+        {
+            //BOTON DETENER
+        }
     }
 }

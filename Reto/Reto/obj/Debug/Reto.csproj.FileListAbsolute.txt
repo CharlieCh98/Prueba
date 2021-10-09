@@ -1,0 +1,10 @@
+C:\Users\mocin\Source\Repos\Reto\Reto\Reto\bin\Debug\Reto.exe.config
+C:\Users\mocin\Source\Repos\Reto\Reto\Reto\bin\Debug\Reto.exe
+C:\Users\mocin\Source\Repos\Reto\Reto\Reto\bin\Debug\Reto.pdb
+C:\Users\mocin\Source\Repos\Reto\Reto\Reto\obj\Debug\Reto.csproj.AssemblyReference.cache
+C:\Users\mocin\Source\Repos\Reto\Reto\Reto\obj\Debug\Reto.Form1.resources
+C:\Users\mocin\Source\Repos\Reto\Reto\Reto\obj\Debug\Reto.Properties.Resources.resources
+C:\Users\mocin\Source\Repos\Reto\Reto\Reto\obj\Debug\Reto.csproj.GenerateResource.cache
+C:\Users\mocin\Source\Repos\Reto\Reto\Reto\obj\Debug\Reto.csproj.CoreCompileInputs.cache
+C:\Users\mocin\Source\Repos\Reto\Reto\Reto\obj\Debug\Reto.exe
+C:\Users\mocin\Source\Repos\Reto\Reto\Reto\obj\Debug\Reto.pdb
