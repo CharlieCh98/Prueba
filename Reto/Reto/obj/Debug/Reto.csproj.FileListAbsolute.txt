@@ -8,3 +8,13 @@ C:\Users\mocin\Source\Repos\Reto\Reto\Reto\obj\Debug\Reto.csproj.GenerateResourc
 C:\Users\mocin\Source\Repos\Reto\Reto\Reto\obj\Debug\Reto.csproj.CoreCompileInputs.cache
 C:\Users\mocin\Source\Repos\Reto\Reto\Reto\obj\Debug\Reto.exe
 C:\Users\mocin\Source\Repos\Reto\Reto\Reto\obj\Debug\Reto.pdb
+C:\Users\alber\source\Reto\Reto\Reto\bin\Debug\Reto.exe.config
+C:\Users\alber\source\Reto\Reto\Reto\bin\Debug\Reto.exe
+C:\Users\alber\source\Reto\Reto\Reto\bin\Debug\Reto.pdb
+C:\Users\alber\source\Reto\Reto\Reto\obj\Debug\Reto.csproj.AssemblyReference.cache
+C:\Users\alber\source\Reto\Reto\Reto\obj\Debug\Reto.Form1.resources
+C:\Users\alber\source\Reto\Reto\Reto\obj\Debug\Reto.Properties.Resources.resources
+C:\Users\alber\source\Reto\Reto\Reto\obj\Debug\Reto.csproj.GenerateResource.cache
+C:\Users\alber\source\Reto\Reto\Reto\obj\Debug\Reto.csproj.CoreCompileInputs.cache
+C:\Users\alber\source\Reto\Reto\Reto\obj\Debug\Reto.exe
+C:\Users\alber\source\Reto\Reto\Reto\obj\Debug\Reto.pdb

@@ -31,16 +31,16 @@ namespace Reto
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.Bt_iniciar = new System.Windows.Forms.PictureBox();
-            this.Bt_detener = new System.Windows.Forms.PictureBox();
+            this.btnIniciar = new System.Windows.Forms.PictureBox();
+            this.btnDetener = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.Con_Canela = new System.Windows.Forms.Label();
+            this.labelCanela = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.Con_Vainilla = new System.Windows.Forms.Label();
+            this.labelVainilla = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.Con_Chocolate = new System.Windows.Forms.Label();
+            this.labelChocolate = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -50,8 +50,8 @@ namespace Reto
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Bt_iniciar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Bt_detener)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnIniciar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDetener)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -72,8 +72,8 @@ namespace Reto
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.RoyalBlue;
-            this.panel3.Controls.Add(this.Bt_iniciar);
-            this.panel3.Controls.Add(this.Bt_detener);
+            this.panel3.Controls.Add(this.btnIniciar);
+            this.panel3.Controls.Add(this.btnDetener);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Location = new System.Drawing.Point(155, 243);
@@ -81,29 +81,28 @@ namespace Reto
             this.panel3.Size = new System.Drawing.Size(219, 128);
             this.panel3.TabIndex = 1;
             // 
-            // Bt_iniciar
+            // btnIniciar
             // 
-            this.Bt_iniciar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Bt_iniciar.Image = global::Reto.Properties.Resources.pngegg;
-            this.Bt_iniciar.Location = new System.Drawing.Point(13, 34);
-            this.Bt_iniciar.Name = "Bt_iniciar";
-            this.Bt_iniciar.Size = new System.Drawing.Size(80, 80);
-            this.Bt_iniciar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Bt_iniciar.TabIndex = 3;
-            this.Bt_iniciar.TabStop = false;
-            this.Bt_iniciar.Click += new System.EventHandler(this.Bt_iniciar_Click);
+            this.btnIniciar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnIniciar.Image = global::Reto.Properties.Resources.pngegg;
+            this.btnIniciar.Location = new System.Drawing.Point(13, 34);
+            this.btnIniciar.Name = "btnIniciar";
+            this.btnIniciar.Size = new System.Drawing.Size(80, 80);
+            this.btnIniciar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnIniciar.TabIndex = 3;
+            this.btnIniciar.TabStop = false;
+            this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
             // 
-            // Bt_detener
+            // btnDetener
             // 
-            this.Bt_detener.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Bt_detener.Image = global::Reto.Properties.Resources.pngegg__1_;
-            this.Bt_detener.Location = new System.Drawing.Point(125, 34);
-            this.Bt_detener.Name = "Bt_detener";
-            this.Bt_detener.Size = new System.Drawing.Size(80, 80);
-            this.Bt_detener.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Bt_detener.TabIndex = 4;
-            this.Bt_detener.TabStop = false;
-            this.Bt_detener.Click += new System.EventHandler(this.Bt_detener_Click);
+            this.btnDetener.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDetener.Image = global::Reto.Properties.Resources.pngegg__1_;
+            this.btnDetener.Location = new System.Drawing.Point(125, 34);
+            this.btnDetener.Name = "btnDetener";
+            this.btnDetener.Size = new System.Drawing.Size(80, 80);
+            this.btnDetener.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnDetener.TabIndex = 4;
+            this.btnDetener.TabStop = false;
             // 
             // label2
             // 
@@ -130,11 +129,11 @@ namespace Reto
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Azure;
-            this.panel2.Controls.Add(this.Con_Canela);
+            this.panel2.Controls.Add(this.labelCanela);
             this.panel2.Controls.Add(this.label11);
-            this.panel2.Controls.Add(this.Con_Vainilla);
+            this.panel2.Controls.Add(this.labelVainilla);
             this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.Con_Chocolate);
+            this.panel2.Controls.Add(this.labelChocolate);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
@@ -149,15 +148,15 @@ namespace Reto
             this.panel2.Size = new System.Drawing.Size(523, 221);
             this.panel2.TabIndex = 0;
             // 
-            // Con_Canela
+            // labelCanela
             // 
-            this.Con_Canela.AutoSize = true;
-            this.Con_Canela.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Con_Canela.Location = new System.Drawing.Point(470, 192);
-            this.Con_Canela.Name = "Con_Canela";
-            this.Con_Canela.Size = new System.Drawing.Size(15, 16);
-            this.Con_Canela.TabIndex = 13;
-            this.Con_Canela.Text = "0";
+            this.labelCanela.AutoSize = true;
+            this.labelCanela.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCanela.Location = new System.Drawing.Point(470, 192);
+            this.labelCanela.Name = "labelCanela";
+            this.labelCanela.Size = new System.Drawing.Size(15, 16);
+            this.labelCanela.TabIndex = 13;
+            this.labelCanela.Text = "0";
             // 
             // label11
             // 
@@ -169,15 +168,15 @@ namespace Reto
             this.label11.TabIndex = 12;
             this.label11.Text = "CANTIDAD DE\r\nPRODUCCIÓN:";
             // 
-            // Con_Vainilla
+            // labelVainilla
             // 
-            this.Con_Vainilla.AutoSize = true;
-            this.Con_Vainilla.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Con_Vainilla.Location = new System.Drawing.Point(284, 194);
-            this.Con_Vainilla.Name = "Con_Vainilla";
-            this.Con_Vainilla.Size = new System.Drawing.Size(15, 16);
-            this.Con_Vainilla.TabIndex = 11;
-            this.Con_Vainilla.Text = "0";
+            this.labelVainilla.AutoSize = true;
+            this.labelVainilla.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVainilla.Location = new System.Drawing.Point(284, 194);
+            this.labelVainilla.Name = "labelVainilla";
+            this.labelVainilla.Size = new System.Drawing.Size(15, 16);
+            this.labelVainilla.TabIndex = 11;
+            this.labelVainilla.Text = "0";
             // 
             // label9
             // 
@@ -189,15 +188,15 @@ namespace Reto
             this.label9.TabIndex = 10;
             this.label9.Text = "CANTIDAD DE\r\nPRODUCCIÓN:";
             // 
-            // Con_Chocolate
+            // labelChocolate
             // 
-            this.Con_Chocolate.AutoSize = true;
-            this.Con_Chocolate.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Con_Chocolate.Location = new System.Drawing.Point(111, 194);
-            this.Con_Chocolate.Name = "Con_Chocolate";
-            this.Con_Chocolate.Size = new System.Drawing.Size(15, 16);
-            this.Con_Chocolate.TabIndex = 9;
-            this.Con_Chocolate.Text = "0";
+            this.labelChocolate.AutoSize = true;
+            this.labelChocolate.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelChocolate.Location = new System.Drawing.Point(111, 194);
+            this.labelChocolate.Name = "labelChocolate";
+            this.labelChocolate.Size = new System.Drawing.Size(15, 16);
+            this.labelChocolate.TabIndex = 9;
+            this.labelChocolate.Text = "0";
             // 
             // label6
             // 
@@ -282,8 +281,8 @@ namespace Reto
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Bt_iniciar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Bt_detener)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnIniciar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDetener)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -297,8 +296,8 @@ namespace Reto
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox Bt_iniciar;
-        private System.Windows.Forms.PictureBox Bt_detener;
+        private System.Windows.Forms.PictureBox btnIniciar;
+        private System.Windows.Forms.PictureBox btnDetener;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
@@ -308,11 +307,11 @@ namespace Reto
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label Con_Canela;
+        private System.Windows.Forms.Label labelCanela;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label Con_Vainilla;
+        private System.Windows.Forms.Label labelVainilla;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label Con_Chocolate;
+        private System.Windows.Forms.Label labelChocolate;
         private System.Windows.Forms.Label label6;
     }
 }
